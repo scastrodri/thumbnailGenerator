@@ -7,6 +7,7 @@
   
 * We will considered the schematic option from Cloud formation and the yaml snipset.
 * The lambdaLayer folder will not be updated here, that's because doesn't make sense to put the PIL and boto3.
+* In this case will be much simpler use this pipeline that just depends on the AWS Lambda, 'cause you don't need to create instances, batch and containers to deploid the app, it's enough with a layer that has the necessary libraries, and the scale will depend on the amount of request.
 
 ## Step-by-Step
 * Create a S3 bucket to save your .zip lambda_handler.py and the ThumbnailGenerator.py scripts.
