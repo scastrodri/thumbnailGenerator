@@ -26,7 +26,7 @@
 * sign the desing section on the Cloudformation tool and stablish the conections, an [example](CloudFormation/thumnailGen.png)
 
 ## Pipeline from the yamal file
-![structure from yamal](CloudFormation/application-composer-thumnail2.yaml.png)
+![structure from yamal](CloudFormation/pipeline.png)
 
 ## Some thumbnails generated
 ![boy](Images/boy.jpg) ![](thumbnails/boy.jpg)
